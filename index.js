@@ -1,13 +1,8 @@
-// Scooter with year, color, and model properties
-// Driver with name, age, and experience properties
-// PickupLocation with address and city properties
 
-class Scooter {
-  constructor(year, color, model) {
-    this.year: year
-    this.color: color
-    this.model: model
-  }
+function Scooter(year, color, model){
+  this.year = year;
+  this.color = color;
+  this.model = model
 }
 
 function Driver(name, age, experience){
@@ -16,9 +11,7 @@ function Driver(name, age, experience){
   this.experience = experience;
 }
 
-class PickupLocation {
-  constructor(address, city) {
-    this.address = address;
-    this.city = city;
-  }
+function PickupLocation(address, city){
+  this.address = address;
+  this.city = city;
 }
