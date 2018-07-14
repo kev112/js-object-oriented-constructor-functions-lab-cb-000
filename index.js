@@ -2,7 +2,7 @@
 // Driver with name, age, and experience properties
 // PickupLocation with address and city properties
 
-class Scooter(year, color, model) {
+class Scooter {
   constructor(year, color, model) {
     this.year: year
     this.color: color
