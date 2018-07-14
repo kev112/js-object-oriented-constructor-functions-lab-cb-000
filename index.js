@@ -16,9 +16,9 @@ function Driver(name, age, experience){
   this.experience = experience;
 }
 
-class {
-  constructor() {
-    this. = 
-    this. = 
+class PickupLocation {
+  constructor(address, city) {
+    this.address = address;
+    this.city = city;
   }
 }
