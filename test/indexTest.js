@@ -1,16 +1,16 @@
 const expect = chai.expect;
 
 describe('objects', function() {
-  describe('Scooter constructor', function(){
-    it("should create a new scooter with three properties", function(){
-      let samson = new Scooter(2015, "red", "swoosh");
-      expect(samson).to.be.an.instanceof(Scooter);
-      expect(samson.year).to.equal(2015);
-      expect(samson.color).to.equal("red");
-      expect(samson.model).to.equal("swoosh");
-    });
-
-  });
+  // describe('Scooter constructor', function(){
+  //   it("should create a new scooter with three properties", function(){
+  //     let samson = new Scooter(2015, "red", "swoosh");
+  //     expect(samson).to.be.an.instanceof(Scooter);
+  //     expect(samson.year).to.equal(2015);
+  //     expect(samson.color).to.equal("red");
+  //     expect(samson.model).to.equal("swoosh");
+  //   });
+  // 
+  // });
 
   describe('Driver constructor', function(){
     it("should create a new driver with three properties", function(){
